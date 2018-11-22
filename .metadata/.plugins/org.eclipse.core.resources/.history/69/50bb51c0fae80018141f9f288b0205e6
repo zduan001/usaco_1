@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+#typedef pair<int,int> pii
+
+using namespace std;
+
+
+
+int main() {
+	freopen("mirrors.in", "r", stdin);
+	freopen("mirrors.out", "w", stdout);
+	int n, x,y
+	cin >> n >> x >> y;
+
+	return 0;
+}

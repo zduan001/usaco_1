@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution {
+public:
+    vector<int> countSmaller(vector<int>& nums) {
+
+    }
+
+    void merge(vector<int>& nums, int start, int end, int mid) {
+    	int i, j, k;
+		int n1 = mid - start + 1;
+    	int n2 = end - mid;
+    	vector<int>l, r;
+    	for (int i = 0; i < n1; i ++) {
+    		l.push_back(arr[start +i]);
+    	}
+    	for (int j = 0; j < n2; j++) {
+    		r.push_back(arr[mid+1+j]);
+    	}
+    }
+};
+
+int main() {
+
+	return 0;
+}

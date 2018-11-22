@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+
+
+using namespace std;
+
+typedef pair<int,int> pii;
+
+
+int main() {
+	freopen("mirrors.in", "r", stdin);
+	freopen("mirrors.out", "w", stdout);
+	int n, x, y;
+	cin >> n >> x >> y;
+	int max_x = 0, max_y = 0;
+	for (int i = 0; i < n; i++) {
+
+	}
+
+	return 0;
+}

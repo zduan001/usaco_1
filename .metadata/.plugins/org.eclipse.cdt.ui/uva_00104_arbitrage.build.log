@@ -1,0 +1,6 @@
+15:45:10 **** Incremental Build of configuration Debug for project uva_00104_arbitrage ****
+make all 
+make: Nothing to be done for 'all'.
+
+15:45:10 Build Finished. 0 errors, 0 warnings. (took 175ms)
+

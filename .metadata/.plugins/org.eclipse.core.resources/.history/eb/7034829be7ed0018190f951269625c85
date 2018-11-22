@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int m, m;
+	cin >> n >> m;
+	int k = 0, l = 0;
+	int tmp;
+	for (int i = 0; i < n; i++) {
+		cin >> tmp;
+		if (tmp > m) {
+			k ++;
+		} else {
+			l++;
+		}
+	}
+
+	int res = 0;
+	int x = 1;
+	int y = 1;
+	for (int i = 0; i < max(k, l); i++) {
+		res += x * (k-i)/(i+1);
+		x = x * (k-i)/(i+1);
+		res += x * y * (l-i)/ (i+1);
+		y = y * (l - i)/(i+1);
+	}
+
+
+	return 0;
+}

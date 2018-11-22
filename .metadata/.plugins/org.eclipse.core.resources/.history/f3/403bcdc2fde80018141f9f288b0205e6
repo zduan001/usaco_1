@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+
+
+using namespace std;
+
+typedef pair<int,int> pii;
+
+pii turn(pii input, char mirror){
+	if (mirror == '/') {
+		if (input == {1,0}) {
+			return {0, 1};
+		}
+		if (input.first )
+	}
+}
+
+int main() {
+	freopen("mirrors.in", "r", stdin);
+	freopen("mirrors.out", "w", stdout);
+	int n, x, y;
+	cin >> n >> x >> y;
+	int max_x = 0, max_y = 0;
+	map<pii, char> map;
+	for (int i = 0; i < n; i++) {
+		int i, j;
+		char m;
+		cin >> i >> j >> m;
+		map[{i,j}] = m;
+		max_x = max(max_x, i);
+		max_y = max(max_y, j);
+	}
+
+	return 0;
+}

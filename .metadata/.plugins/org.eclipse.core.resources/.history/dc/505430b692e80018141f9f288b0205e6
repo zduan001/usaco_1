@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+//	freopen("paint.in", "r", stdin);
+//	freopne("paint.out", "w", stdout);
+	int n, k;
+	cin >> n >> k;
+	int cur = 0;
+	int l;
+	char d;
+	vector<pair<int,int>> intervals;
+	for (int i = 0; i< n; i++) {
+		cin >> l >> d;
+		int end = d == 'R' ? cur + l : cur -l;
+		intervals.push_back({min(cur, end), max(cur, end)});
+		cur = end;
+	}
+
+	for (auto i : intervals) {
+		cout << i.first < "  " << i.second;
+	}
+	cout << endl;
+
+	return 0;
+}

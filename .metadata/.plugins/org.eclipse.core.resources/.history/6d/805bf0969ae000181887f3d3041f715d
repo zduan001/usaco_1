@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+bool diffByOne(string a, string b) {
+	if (s.length != b.lenth) return false;
+
+}
+
+int main() {
+	int n;
+	cin >> n;
+	for (int i = 0; i < n; i++) {
+		vector<string> words;
+		string tmp;
+		while(cin >> tmp) {
+			if (tmp == '*') break;
+			words.push_back(tmp);
+		}
+
+		unordered_map<string, vector<string>> graph;
+		for(int j = 0; j < words.size(); j++) {
+			for (int k = 0; k < words.size(); k++) {
+
+			}
+		}
+
+	}
+
+	return 0;
+}
