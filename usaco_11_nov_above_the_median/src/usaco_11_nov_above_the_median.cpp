@@ -12,11 +12,12 @@ public:
     	while(i <= mid && j <= end) {
     		if (nums[j] >= nums[i]) {
     			tmp.push_back(nums[j]);
+    			// only update count when we move nums[j]. only this is
+    			// is an inverse.
     			count += (mid -i +1);
     			j++;
     		} else {
     			tmp.push_back(nums[i]);
-//    			count += (j-mid-1);
     			i++;
     		}
     	}
