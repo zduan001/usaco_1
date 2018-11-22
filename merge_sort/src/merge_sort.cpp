@@ -9,13 +9,13 @@ public:
     	i = start;
     	j = mid+1;
     	while(i <= mid && j <= end) {
-    		if (nums[i] > nums[j]) {
+    		if (nums[i] < nums[j]) {
     			tmp.push_back(nums[i]);
-    			count += (j-mid-1);
+
     			i++;
     		} else {
-
     			tmp.push_back(nums[j]);
+    			count += (mid-i+1);
     			j++;
     		}
     	}

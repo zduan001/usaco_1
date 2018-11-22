@@ -1,4 +1,4 @@
-09:17:06 **** Incremental Build of configuration Debug for project merge_sort ****
+10:15:06 **** Incremental Build of configuration Debug for project merge_sort ****
 make all 
 Building file: ../src/merge_sort.cpp
 Invoking: GCC C++ Compiler
@@ -11,5 +11,5 @@ g++  -o "merge_sort"  ./src/merge_sort.o
 Finished building target: merge_sort
  
 
-09:17:08 Build Finished. 0 errors, 0 warnings. (took 1s.984ms)
+10:15:08 Build Finished. 0 errors, 0 warnings. (took 1s.681ms)
 

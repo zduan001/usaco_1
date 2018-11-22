@@ -9188,3 +9188,42 @@ make: Nothing to be done for 'all'.
 09:34:02 **** Incremental Build of configuration Debug for project usaco_11_nov_above_the_median ****
 make all 
 make: Nothing to be done for 'all'.
+10:11:59 **** Incremental Build of configuration Debug for project merge_sort ****
+make all 
+make: Nothing to be done for 'all'.
+10:12:33 **** Incremental Build of configuration Debug for project merge_sort ****
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: merge_sort
+Invoking: GCC C++ Linker
+g++  -o "merge_sort"  ./src/merge_sort.o   
+Finished building target: merge_sort
+ 
+10:13:24 **** Incremental Build of configuration Debug for project merge_sort ****
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: merge_sort
+Invoking: GCC C++ Linker
+g++  -o "merge_sort"  ./src/merge_sort.o   
+Finished building target: merge_sort
+ 
+10:15:06 **** Incremental Build of configuration Debug for project merge_sort ****
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: merge_sort
+Invoking: GCC C++ Linker
+g++  -o "merge_sort"  ./src/merge_sort.o   
+Finished building target: merge_sort
+ 
