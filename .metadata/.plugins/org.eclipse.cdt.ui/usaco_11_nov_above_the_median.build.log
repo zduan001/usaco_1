@@ -1,6 +1,15 @@
-09:34:02 **** Incremental Build of configuration Debug for project usaco_11_nov_above_the_median ****
+11:18:09 **** Incremental Build of configuration Debug for project usaco_11_nov_above_the_median ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/usaco_11_nov_above_the_median.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_nov_above_the_median.d" -MT"src/usaco_11_nov_above_the_median.o" -o "src/usaco_11_nov_above_the_median.o" "../src/usaco_11_nov_above_the_median.cpp"
+Finished building: ../src/usaco_11_nov_above_the_median.cpp
+ 
+Building target: usaco_11_nov_above_the_median
+Invoking: GCC C++ Linker
+g++  -o "usaco_11_nov_above_the_median"  ./src/usaco_11_nov_above_the_median.o   
+Finished building target: usaco_11_nov_above_the_median
+ 
 
-09:34:02 Build Finished. 0 errors, 0 warnings. (took 105ms)
+11:18:11 Build Finished. 0 errors, 0 warnings. (took 1s.641ms)
 

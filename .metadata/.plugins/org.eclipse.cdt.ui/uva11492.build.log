@@ -1,6 +1,6 @@
-15:45:09 **** Incremental Build of configuration Debug for project uva11492 ****
+11:18:14 **** Incremental Build of configuration Debug for project uva11492 ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:45:09 Build Finished. 0 errors, 0 warnings. (took 138ms)
+11:18:14 Build Finished. 0 errors, 0 warnings. (took 107ms)
 

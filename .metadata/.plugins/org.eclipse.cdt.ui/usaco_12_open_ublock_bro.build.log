@@ -1,6 +1,6 @@
-15:45:06 **** Incremental Build of configuration Debug for project usaco_12_open_ublock_bro ****
+11:18:11 **** Incremental Build of configuration Debug for project usaco_12_open_ublock_bro ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:45:07 Build Finished. 0 errors, 0 warnings. (took 144ms)
+11:18:11 Build Finished. 0 errors, 0 warnings. (took 168ms)
 

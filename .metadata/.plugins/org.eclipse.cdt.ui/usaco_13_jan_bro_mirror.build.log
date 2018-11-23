@@ -1,6 +1,6 @@
-15:45:07 **** Incremental Build of configuration Debug for project usaco_13_jan_bro_mirror ****
+11:18:11 **** Incremental Build of configuration Debug for project usaco_13_jan_bro_mirror ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:45:07 Build Finished. 0 errors, 0 warnings. (took 189ms)
+11:18:12 Build Finished. 0 errors, 0 warnings. (took 164ms)
 

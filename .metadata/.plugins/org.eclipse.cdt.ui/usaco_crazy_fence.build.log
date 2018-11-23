@@ -1,6 +1,6 @@
-15:45:08 **** Incremental Build of configuration Debug for project usaco_crazy_fence ****
+11:18:12 **** Incremental Build of configuration Debug for project usaco_crazy_fence ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:45:08 Build Finished. 0 errors, 0 warnings. (took 168ms)
+11:18:12 Build Finished. 0 errors, 0 warnings. (took 244ms)
 

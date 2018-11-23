@@ -9227,3 +9227,405 @@ Invoking: GCC C++ Linker
 g++  -o "merge_sort"  ./src/merge_sort.o   
 Finished building target: merge_sort
  
+11:48:29 **** Build of configuration Debug for project play_ground ****
+make all 
+Building file: ../src/play_ground.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/play_ground.d" -MT"src/play_ground.o" -o "src/play_ground.o" "../src/play_ground.cpp"
+Finished building: ../src/play_ground.cpp
+ 
+Building target: play_ground
+Invoking: GCC C++ Linker
+g++  -o "play_ground"  ./src/play_ground.o   
+Finished building target: play_ground
+ 
+11:18:05 **** Build of configuration Debug for project leetcode_327 ****
+make all 
+Building file: ../src/leetcode_327.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_327.d" -MT"src/leetcode_327.o" -o "src/leetcode_327.o" "../src/leetcode_327.cpp"
+Finished building: ../src/leetcode_327.cpp
+ 
+Building target: leetcode_327
+Invoking: GCC C++ Linker
+g++  -o "leetcode_327"  ./src/leetcode_327.o   
+Finished building target: leetcode_327
+ 
+11:18:06 **** Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+../src/max_flow.cpp:3:9: error: ‘vector’ does not name a type; did you mean ‘wctob’?
+ typedef vector<int> vi;
+         ^~~~~~
+         wctob
+../src/max_flow.cpp: In function ‘int main()’:
+../src/max_flow.cpp:15:3: error: ‘vi’ was not declared in this scope
+   vi ds
+   ^~
+make: *** [src/max_flow.o] Error 1
+src/subdir.mk:18: recipe for target 'src/max_flow.o' failed
+11:18:08 **** Incremental Build of configuration Debug for project merge_sort ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:09 **** Incremental Build of configuration Debug for project play_ground ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:09 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:09 **** Incremental Build of configuration Debug for project usaco_11_nov_above_the_median ****
+make all 
+Building file: ../src/usaco_11_nov_above_the_median.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_nov_above_the_median.d" -MT"src/usaco_11_nov_above_the_median.o" -o "src/usaco_11_nov_above_the_median.o" "../src/usaco_11_nov_above_the_median.cpp"
+Finished building: ../src/usaco_11_nov_above_the_median.cpp
+ 
+Building target: usaco_11_nov_above_the_median
+Invoking: GCC C++ Linker
+g++  -o "usaco_11_nov_above_the_median"  ./src/usaco_11_nov_above_the_median.o   
+Finished building target: usaco_11_nov_above_the_median
+ 
+11:18:11 **** Incremental Build of configuration Debug for project usaco_12_open_ublock_bro ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:11 **** Incremental Build of configuration Debug for project usaco_13_Jan_silver_paint ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:11 **** Incremental Build of configuration Debug for project usaco_13_jan_bro_mirror ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:12 **** Incremental Build of configuration Debug for project usaco_crazy_fence ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:12 **** Incremental Build of configuration Debug for project usaco_lair ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:13 **** Incremental Build of configuration Debug for project uva10003 ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:13 **** Incremental Build of configuration Debug for project uva10943 ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:14 **** Incremental Build of configuration Debug for project uva11492 ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:14 **** Incremental Build of configuration Debug for project uva429 ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:14 **** Incremental Build of configuration Debug for project uva_00104_arbitrage ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:14 **** Incremental Build of configuration Debug for project uva_334_concur ****
+make all 
+make: Nothing to be done for 'all'.
+11:18:45 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+../src/max_flow.cpp:4:9: error: ‘vector’ does not name a type; did you mean ‘wctob’?
+ typedef vector<int> vi;
+         ^~~~~~
+         wctob
+../src/max_flow.cpp: In function ‘int main()’:
+../src/max_flow.cpp:18:3: error: ‘vi’ was not declared in this scope
+   vi dist(MAX_V, INF);
+   ^~
+../src/max_flow.cpp:19:3: error: ‘dist’ was not declared in this scope
+   dist[s] = 0;
+   ^~~~
+../src/max_flow.cpp:19:3: note: suggested alternative: ‘div’
+   dist[s] = 0;
+   ^~~~
+   div
+../src/max_flow.cpp:22:6: error: expected ‘;’ before ‘p’
+   vi p(MAX_V -1);
+      ^
+../src/max_flow.cpp:31:6: error: ‘p’ was not declared in this scope
+      p[v] = u;
+      ^
+make: *** [src/max_flow.o] Error 1
+src/subdir.mk:18: recipe for target 'src/max_flow.o' failed
+11:20:08 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+Finished building: ../src/max_flow.cpp
+ 
+Building target: max_flow
+Invoking: GCC C++ Linker
+g++  -o "max_flow"  ./src/max_flow.o   
+Finished building target: max_flow
+ 
+11:28:03 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+../src/max_flow.cpp: In function ‘int main()’:
+../src/max_flow.cpp:35:20: error: no matching function for call to ‘std::vector<int>::assign(int)’
+   p.assign(MAX_V -1);
+                    ^
+In file included from /usr/include/c++/7/vector:64:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/max_flow.cpp:1:
+/usr/include/c++/7/bits/stl_vector.h:501:7: note: candidate: void std::vector<_Tp, _Alloc>::assign(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::value_type = int]
+       assign(size_type __n, const value_type& __val)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:501:7: note:   candidate expects 2 arguments, 1 provided
+/usr/include/c++/7/bits/stl_vector.h:520:2: note: candidate: template<class _InputIterator, class> void std::vector<_Tp, _Alloc>::assign(_InputIterator, _InputIterator) [with _InputIterator = _InputIterator; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = int; _Alloc = std::allocator<int>]
+  assign(_InputIterator __first, _InputIterator __last)
+  ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:520:2: note:   template argument deduction/substitution failed:
+../src/max_flow.cpp:35:20: note:   candidate expects 2 arguments, 1 provided
+   p.assign(MAX_V -1);
+                    ^
+In file included from /usr/include/c++/7/vector:64:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/max_flow.cpp:1:
+/usr/include/c++/7/bits/stl_vector.h:546:7: note: candidate: void std::vector<_Tp, _Alloc>::assign(std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>]
+       assign(initializer_list<value_type> __l)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:546:7: note:   no known conversion for argument 1 from ‘int’ to ‘std::initializer_list<int>’
+make: *** [src/max_flow.o] Error 1
+src/subdir.mk:18: recipe for target 'src/max_flow.o' failed
+11:28:27 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+Finished building: ../src/max_flow.cpp
+ 
+Building target: max_flow
+Invoking: GCC C++ Linker
+g++  -o "max_flow"  ./src/max_flow.o   
+Finished building target: max_flow
+ 
+12:03:48 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+../src/max_flow.cpp: In function ‘int main()’:
+../src/max_flow.cpp:42:52: error: ‘total_size’ cannot be used as a function
+  res.assign(total_size + 2, vector<int>(total_size() + 2, 0));
+                                                    ^
+../src/max_flow.cpp:44:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < ver.size(); i++) {
+                  ~~^~~~~~~~~~~~
+../src/max_flow.cpp:46:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int j = 0; j < hor.size(); j ++) {
+                   ~~^~~~~~~~~~~~
+../src/max_flow.cpp:55:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < ver.size(); i++) {
+                  ~~^~~~~~~~~~~~
+../src/max_flow.cpp:58:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int j = 0; j < hor.size(); j ++) {
+                  ~~^~~~~~~~~~~~
+make: *** [src/max_flow.o] Error 1
+src/subdir.mk:18: recipe for target 'src/max_flow.o' failed
+12:04:18 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+../src/max_flow.cpp: In function ‘int main()’:
+../src/max_flow.cpp:44:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < ver.size(); i++) {
+                  ~~^~~~~~~~~~~~
+../src/max_flow.cpp:46:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int j = 0; j < hor.size(); j ++) {
+                   ~~^~~~~~~~~~~~
+../src/max_flow.cpp:55:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < ver.size(); i++) {
+                  ~~^~~~~~~~~~~~
+../src/max_flow.cpp:58:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int j = 0; j < hor.size(); j ++) {
+                  ~~^~~~~~~~~~~~
+Finished building: ../src/max_flow.cpp
+ 
+Building target: max_flow
+Invoking: GCC C++ Linker
+g++  -o "max_flow"  ./src/max_flow.o   
+Finished building target: max_flow
+ 
+12:04:52 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+../src/max_flow.cpp: In function ‘int main()’:
+../src/max_flow.cpp:44:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < ver.size(); i++) {
+                  ~~^~~~~~~~~~~~
+../src/max_flow.cpp:46:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int j = 0; j < hor.size(); j ++) {
+                   ~~^~~~~~~~~~~~
+../src/max_flow.cpp:55:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < ver.size(); i++) {
+                  ~~^~~~~~~~~~~~
+../src/max_flow.cpp:58:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int j = 0; j < hor.size(); j ++) {
+                  ~~^~~~~~~~~~~~
+Finished building: ../src/max_flow.cpp
+ 
+Building target: max_flow
+Invoking: GCC C++ Linker
+g++  -o "max_flow"  ./src/max_flow.o   
+Finished building target: max_flow
+ 
+12:05:49 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+Finished building: ../src/max_flow.cpp
+ 
+Building target: max_flow
+Invoking: GCC C++ Linker
+g++  -o "max_flow"  ./src/max_flow.o   
+Finished building target: max_flow
+ 
+12:07:59 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+Finished building: ../src/max_flow.cpp
+ 
+Building target: max_flow
+Invoking: GCC C++ Linker
+g++  -o "max_flow"  ./src/max_flow.o   
+Finished building target: max_flow
+ 
+12:08:30 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+Finished building: ../src/max_flow.cpp
+ 
+Building target: max_flow
+Invoking: GCC C++ Linker
+g++  -o "max_flow"  ./src/max_flow.o   
+Finished building target: max_flow
+ 
+12:09:33 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+Finished building: ../src/max_flow.cpp
+ 
+Building target: max_flow
+Invoking: GCC C++ Linker
+g++  -o "max_flow"  ./src/max_flow.o   
+Finished building target: max_flow
+ 
+12:10:54 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+Finished building: ../src/max_flow.cpp
+ 
+Building target: max_flow
+Invoking: GCC C++ Linker
+g++  -o "max_flow"  ./src/max_flow.o   
+Finished building target: max_flow
+ 
+12:11:43 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+Finished building: ../src/max_flow.cpp
+ 
+Building target: max_flow
+Invoking: GCC C++ Linker
+g++  -o "max_flow"  ./src/max_flow.o   
+Finished building target: max_flow
+ 
+12:12:56 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+make: Nothing to be done for 'all'.
+12:13:28 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:31 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+make: Nothing to be done for 'all'.
+12:15:17 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+make: Nothing to be done for 'all'.
+12:15:46 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+make: Nothing to be done for 'all'.
+12:17:22 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+make: Nothing to be done for 'all'.
+12:17:48 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+make: Nothing to be done for 'all'.
+12:18:25 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+make: Nothing to be done for 'all'.
+12:18:42 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+make: Nothing to be done for 'all'.
+12:36:23 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+make: Nothing to be done for 'all'.
+12:36:44 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+make: Nothing to be done for 'all'.
+12:37:17 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+make: Nothing to be done for 'all'.
+12:37:40 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+make: Nothing to be done for 'all'.
+12:40:18 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+Finished building: ../src/max_flow.cpp
+ 
+Building target: max_flow
+Invoking: GCC C++ Linker
+g++  -o "max_flow"  ./src/max_flow.o   
+Finished building target: max_flow
+ 
+12:40:38 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+make: Nothing to be done for 'all'.
+12:42:47 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+Finished building: ../src/max_flow.cpp
+ 
+Building target: max_flow
+Invoking: GCC C++ Linker
+g++  -o "max_flow"  ./src/max_flow.o   
+Finished building target: max_flow
+ 
+13:12:39 **** Incremental Build of configuration Debug for project max_flow ****
+make all 
+Building file: ../src/max_flow.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/max_flow.d" -MT"src/max_flow.o" -o "src/max_flow.o" "../src/max_flow.cpp"
+Finished building: ../src/max_flow.cpp
+ 
+Building target: max_flow
+Invoking: GCC C++ Linker
+g++  -o "max_flow"  ./src/max_flow.o   
+Finished building target: max_flow
+ 

@@ -1,15 +1,6 @@
-10:15:06 **** Incremental Build of configuration Debug for project merge_sort ****
+11:18:08 **** Incremental Build of configuration Debug for project merge_sort ****
 make all 
-Building file: ../src/merge_sort.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
-Finished building: ../src/merge_sort.cpp
- 
-Building target: merge_sort
-Invoking: GCC C++ Linker
-g++  -o "merge_sort"  ./src/merge_sort.o   
-Finished building target: merge_sort
- 
+make: Nothing to be done for 'all'.
 
-10:15:08 Build Finished. 0 errors, 0 warnings. (took 1s.681ms)
+11:18:08 Build Finished. 0 errors, 0 warnings. (took 125ms)
 

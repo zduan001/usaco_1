@@ -1,6 +1,6 @@
-15:45:10 **** Incremental Build of configuration Debug for project uva_334_concur ****
+11:18:14 **** Incremental Build of configuration Debug for project uva_334_concur ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:45:10 Build Finished. 0 errors, 0 warnings. (took 209ms)
+11:18:15 Build Finished. 0 errors, 0 warnings. (took 165ms)
 
