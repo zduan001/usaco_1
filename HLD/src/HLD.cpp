@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// followed : https://apps.topcoder.com/forums/?module=Thread&threadID=796128&start=0&mc=8
 // TODO: there is no update() and query() implemented.
+// TODO: sounds like segmented tree is needed too.
 
 const int V = 100000;
 vector<int> adj[V];
@@ -111,16 +113,48 @@ int lca_2(int u, int v) {
 	return u;
 }
 
+void printout(int N) {
+	int i;
+
+	printf("\n");
+	printf("heavy: \n");
+	printf("(i,j): i ----(heavy edge)---- j\n\n");
+
+	for (i = 0; i < N; i++) {
+		printf("(%d, %d)\n", i, heavy[i]);
+	}
+
+	printf("\n");
+	printf("CHAIN: \n");
+	printf("(i, j): Node i is in group (heavy-path group) number j\n\n");
+
+	for (i = 0; i < N; i++) {
+		printf("(%d, %d)\n", i, chain[i]);
+	}
+
+	printf("\n");
+	printf("HEADER: \n");
+	printf("(i, j): Node i goes up all the way to the highest node (j) which is in the same group\n\n");
+
+	for (i = 0; i < N; i++)
+			printf("(%d, %d)\n", i, head[i]);
+}
+
 int main() {
 	int N, i, j;
 	cin >> N;
-	for (int i = 0; i < N; i++) {
+	for (int k = 0; k < N; k++) {
 		cin >> i >> j;
-		adj[i].push_back(j);
-		adj[j].push_back(i);
+		adj[i-1].push_back(j-1);
+		adj[j-1].push_back(i-1);
 	}
 
-	heavylight_DFS(0);
+	heavylight_DFS(N+1);
+
+//	printout(N+1);
+
+	printf("%d\n", lca_1(8, 4));
+	printf("%d\n", lca_1(8, 7));
 
 	return 0;
 }

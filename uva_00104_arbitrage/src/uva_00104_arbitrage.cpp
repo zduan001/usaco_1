@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
+// http://chchwy.blogspot.com/2008/12/acm-some-hint-about-uva-104.html
 
 int main() {
 	int n;

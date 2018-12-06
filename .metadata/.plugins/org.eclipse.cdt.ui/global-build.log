@@ -14223,3 +14223,1570 @@ Invoking: GCC C++ Linker
 g++  -o "HLD"  ./src/HLD.o   
 Finished building target: HLD
  
+19:43:15 **** Incremental Build of configuration Debug for project HLD ****
+make all 
+Building file: ../src/HLD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HLD.d" -MT"src/HLD.o" -o "src/HLD.o" "../src/HLD.cpp"
+../src/HLD.cpp: In function ‘void heavylight_BFS(int)’:
+../src/HLD.cpp:60:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = *qf++, k = 0; k < adj[i].size(); k++) {
+                              ~~^~~~~~~~~~~~~~~
+../src/HLD.cpp:82:17: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   if (parent[i] = -1 || heavy[parent[i]] != i) {
+       ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/HLD.cpp: In function ‘int main()’:
+../src/HLD.cpp:144:9: warning: unused variable ‘i’ [-Wunused-variable]
+  int N, i, j;
+         ^
+Finished building: ../src/HLD.cpp
+ 
+Building target: HLD
+Invoking: GCC C++ Linker
+g++  -o "HLD"  ./src/HLD.o   
+Finished building target: HLD
+ 
+19:43:43 **** Incremental Build of configuration Debug for project HLD ****
+make all 
+make: Nothing to be done for 'all'.
+19:44:52 **** Incremental Build of configuration Debug for project HLD ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:19 **** Incremental Build of configuration Debug for project HLD ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:32 **** Incremental Build of configuration Debug for project HLD ****
+make all 
+Building file: ../src/HLD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HLD.d" -MT"src/HLD.o" -o "src/HLD.o" "../src/HLD.cpp"
+../src/HLD.cpp: In function ‘void heavylight_BFS(int)’:
+../src/HLD.cpp:60:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = *qf++, k = 0; k < adj[i].size(); k++) {
+                              ~~^~~~~~~~~~~~~~~
+../src/HLD.cpp:82:17: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   if (parent[i] = -1 || heavy[parent[i]] != i) {
+       ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/HLD.cpp
+ 
+Building target: HLD
+Invoking: GCC C++ Linker
+g++  -o "HLD"  ./src/HLD.o   
+Finished building target: HLD
+ 
+19:55:56 **** Incremental Build of configuration Debug for project HLD ****
+make all 
+Building file: ../src/HLD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HLD.d" -MT"src/HLD.o" -o "src/HLD.o" "../src/HLD.cpp"
+../src/HLD.cpp: In function ‘void heavylight_BFS(int)’:
+../src/HLD.cpp:60:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = *qf++, k = 0; k < adj[i].size(); k++) {
+                              ~~^~~~~~~~~~~~~~~
+../src/HLD.cpp:82:17: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   if (parent[i] = -1 || heavy[parent[i]] != i) {
+       ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/HLD.cpp
+ 
+Building target: HLD
+Invoking: GCC C++ Linker
+g++  -o "HLD"  ./src/HLD.o   
+Finished building target: HLD
+ 
+19:57:21 **** Incremental Build of configuration Debug for project HLD ****
+make all 
+Building file: ../src/HLD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HLD.d" -MT"src/HLD.o" -o "src/HLD.o" "../src/HLD.cpp"
+../src/HLD.cpp: In function ‘void heavylight_BFS(int)’:
+../src/HLD.cpp:60:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = *qf++, k = 0; k < adj[i].size(); k++) {
+                              ~~^~~~~~~~~~~~~~~
+../src/HLD.cpp:82:17: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   if (parent[i] = -1 || heavy[parent[i]] != i) {
+       ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/HLD.cpp
+ 
+Building target: HLD
+Invoking: GCC C++ Linker
+g++  -o "HLD"  ./src/HLD.o   
+Finished building target: HLD
+ 
+19:58:57 **** Incremental Build of configuration Debug for project HLD ****
+make all 
+Building file: ../src/HLD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HLD.d" -MT"src/HLD.o" -o "src/HLD.o" "../src/HLD.cpp"
+../src/HLD.cpp: In function ‘void heavylight_BFS(int)’:
+../src/HLD.cpp:60:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = *qf++, k = 0; k < adj[i].size(); k++) {
+                              ~~^~~~~~~~~~~~~~~
+../src/HLD.cpp:82:17: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   if (parent[i] = -1 || heavy[parent[i]] != i) {
+       ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/HLD.cpp
+ 
+Building target: HLD
+Invoking: GCC C++ Linker
+g++  -o "HLD"  ./src/HLD.o   
+Finished building target: HLD
+ 
+20:03:05 **** Incremental Build of configuration Debug for project HLD ****
+make all 
+Building file: ../src/HLD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HLD.d" -MT"src/HLD.o" -o "src/HLD.o" "../src/HLD.cpp"
+../src/HLD.cpp: In function ‘void heavylight_BFS(int)’:
+../src/HLD.cpp:60:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = *qf++, k = 0; k < adj[i].size(); k++) {
+                              ~~^~~~~~~~~~~~~~~
+../src/HLD.cpp:82:17: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   if (parent[i] = -1 || heavy[parent[i]] != i) {
+       ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/HLD.cpp
+ 
+Building target: HLD
+Invoking: GCC C++ Linker
+g++  -o "HLD"  ./src/HLD.o   
+Finished building target: HLD
+ 
+20:03:34 **** Incremental Build of configuration Debug for project HLD ****
+make all 
+Building file: ../src/HLD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HLD.d" -MT"src/HLD.o" -o "src/HLD.o" "../src/HLD.cpp"
+../src/HLD.cpp: In function ‘void heavylight_BFS(int)’:
+../src/HLD.cpp:60:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = *qf++, k = 0; k < adj[i].size(); k++) {
+                              ~~^~~~~~~~~~~~~~~
+../src/HLD.cpp:82:17: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   if (parent[i] = -1 || heavy[parent[i]] != i) {
+       ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/HLD.cpp
+ 
+Building target: HLD
+Invoking: GCC C++ Linker
+g++  -o "HLD"  ./src/HLD.o   
+Finished building target: HLD
+ 
+17:38:40 **** Build of configuration Debug for project HLD_2 ****
+make all 
+Building file: ../src/HLD_2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HLD_2.d" -MT"src/HLD_2.o" -o "src/HLD_2.o" "../src/HLD_2.cpp"
+../src/HLD_2.cpp:1:10: fatal error: bits\stdc++.h: No such file or directory
+ #include <bits\stdc++.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+src/subdir.mk:18: recipe for target 'src/HLD_2.o' failed
+make: *** [src/HLD_2.o] Error 1
+17:38:56 **** Incremental Build of configuration Debug for project HLD_2 ****
+make all 
+Building file: ../src/HLD_2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HLD_2.d" -MT"src/HLD_2.o" -o "src/HLD_2.o" "../src/HLD_2.cpp"
+../src/HLD_2.cpp:2:19: error: expected ‘]’ before ‘;’ token
+ #define MAXN 10000;
+                   ^
+../src/HLD_2.cpp:7:8: note: in expansion of macro ‘MAXN’
+ } edge[MAXN];
+        ^~~~
+../src/HLD_2.cpp:7:12: error: expected unqualified-id before ‘]’ token
+ } edge[MAXN];
+            ^
+../src/HLD_2.cpp:2:19: error: expected ‘]’ before ‘;’ token
+ #define MAXN 10000;
+                   ^
+../src/HLD_2.cpp:12:8: note: in expansion of macro ‘MAXN’
+ } tree[MAXN];
+        ^~~~
+../src/HLD_2.cpp:12:12: error: expected unqualified-id before ‘]’ token
+ } tree[MAXN];
+            ^
+make: *** [src/HLD_2.o] Error 1
+src/subdir.mk:18: recipe for target 'src/HLD_2.o' failed
+17:39:18 **** Incremental Build of configuration Debug for project HLD_2 ****
+make all 
+Building file: ../src/HLD_2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HLD_2.d" -MT"src/HLD_2.o" -o "src/HLD_2.o" "../src/HLD_2.cpp"
+Finished building: ../src/HLD_2.cpp
+ 
+Building target: HLD_2
+Invoking: GCC C++ Linker
+g++  -o "HLD_2"  ./src/HLD_2.o   
+Finished building target: HLD_2
+ 
+18:51:01 **** Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+../src/usaco_11_dec_grass_planting.cpp:3:15: error: expected primary-expression before ‘=’ token
+ #define MAX_N = 110000
+               ^
+../src/usaco_11_dec_grass_planting.cpp:5:16: note: in expansion of macro ‘MAX_N’
+ vector<int>adj[MAX_N];
+                ^~~~~
+../src/usaco_11_dec_grass_planting.cpp:3:15: error: expected primary-expression before ‘=’ token
+ #define MAX_N = 110000
+               ^
+../src/usaco_11_dec_grass_planting.cpp:6:12: note: in expansion of macro ‘MAX_N’
+ int parent[MAX_N], heavy[MAX_N];
+            ^~~~~
+../src/usaco_11_dec_grass_planting.cpp:3:15: error: expected primary-expression before ‘=’ token
+ #define MAX_N = 110000
+               ^
+../src/usaco_11_dec_grass_planting.cpp:6:26: note: in expansion of macro ‘MAX_N’
+ int parent[MAX_N], heavy[MAX_N];
+                          ^~~~~
+../src/usaco_11_dec_grass_planting.cpp:3:15: error: expected primary-expression before ‘=’ token
+ #define MAX_N = 110000
+               ^
+../src/usaco_11_dec_grass_planting.cpp:7:11: note: in expansion of macro ‘MAX_N’
+ int depth[MAX_N], size[MAX_N];
+           ^~~~~
+../src/usaco_11_dec_grass_planting.cpp:3:15: error: expected primary-expression before ‘=’ token
+ #define MAX_N = 110000
+               ^
+../src/usaco_11_dec_grass_planting.cpp:7:24: note: in expansion of macro ‘MAX_N’
+ int depth[MAX_N], size[MAX_N];
+                        ^~~~~
+../src/usaco_11_dec_grass_planting.cpp:3:15: error: expected primary-expression before ‘=’ token
+ #define MAX_N = 110000
+               ^
+../src/usaco_11_dec_grass_planting.cpp:8:11: note: in expansion of macro ‘MAX_N’
+ int chain[MAX_N], head[MAX_N];
+           ^~~~~
+../src/usaco_11_dec_grass_planting.cpp:3:15: error: expected primary-expression before ‘=’ token
+ #define MAX_N = 110000
+               ^
+../src/usaco_11_dec_grass_planting.cpp:8:24: note: in expansion of macro ‘MAX_N’
+ int chain[MAX_N], head[MAX_N];
+                        ^~~~~
+../src/usaco_11_dec_grass_planting.cpp: In function ‘void DFS(int)’:
+../src/usaco_11_dec_grass_planting.cpp:11:2: error: ‘size’ was not declared in this scope
+  size[u] = 1;
+  ^~~~
+../src/usaco_11_dec_grass_planting.cpp:11:2: note: suggested alternative: ‘dysize’
+  size[u] = 1;
+  ^~~~
+  dysize
+../src/usaco_11_dec_grass_planting.cpp:12:16: error: ‘adj’ was not declared in this scope
+  for (auto v : adj[u]) {
+                ^~~
+../src/usaco_11_dec_grass_planting.cpp:13:12: error: ‘parent’ was not declared in this scope
+   if (v == parent[u]) continue;
+            ^~~~~~
+../src/usaco_11_dec_grass_planting.cpp:13:12: note: suggested alternative: ‘popen’
+   if (v == parent[u]) continue;
+            ^~~~~~
+            popen
+../src/usaco_11_dec_grass_planting.cpp:15:3: error: ‘parent’ was not declared in this scope
+   parent[v] = u;
+   ^~~~~~
+../src/usaco_11_dec_grass_planting.cpp:15:3: note: suggested alternative: ‘popen’
+   parent[v] = u;
+   ^~~~~~
+   popen
+../src/usaco_11_dec_grass_planting.cpp:16:3: error: ‘depth’ was not declared in this scope
+   depth[v] = depth[u]+1;
+   ^~~~~
+../src/usaco_11_dec_grass_planting.cpp:20:7: error: ‘heavy’ was not declared in this scope
+   if (heavy[u] == -1 || size[v] > size[heavy[u]]) {
+       ^~~~~
+../src/usaco_11_dec_grass_planting.cpp: In function ‘void heavylight_DFS(int)’:
+../src/usaco_11_dec_grass_planting.cpp:27:9: error: ‘heavy’ was not declared in this scope
+  memset(heavy, -1, sizeof(heavy));
+         ^~~~~
+../src/usaco_11_dec_grass_planting.cpp:29:2: error: ‘parent’ was not declared in this scope
+  parent[0] = -1;
+  ^~~~~~
+../src/usaco_11_dec_grass_planting.cpp:29:2: note: suggested alternative: ‘popen’
+  parent[0] = -1;
+  ^~~~~~
+  popen
+../src/usaco_11_dec_grass_planting.cpp:30:2: error: ‘depth’ was not declared in this scope
+  depth[0] = 0;
+  ^~~~~
+../src/usaco_11_dec_grass_planting.cpp:39:5: error: ‘chain’ was not declared in this scope
+     chain[k] = c;
+     ^~~~~
+../src/usaco_11_dec_grass_planting.cpp:39:5: note: suggested alternative: ‘char’
+     chain[k] = c;
+     ^~~~~
+     char
+../src/usaco_11_dec_grass_planting.cpp:40:5: error: ‘head’ was not declared in this scope
+     head[k] = i;
+     ^~~~
+../src/usaco_11_dec_grass_planting.cpp:40:5: note: suggested alternative: ‘fread’
+     head[k] = i;
+     ^~~~
+     fread
+make: *** [src/usaco_11_dec_grass_planting.o] Error 1
+src/subdir.mk:18: recipe for target 'src/usaco_11_dec_grass_planting.o' failed
+18:51:20 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+Finished building: ../src/usaco_11_dec_grass_planting.cpp
+ 
+Building target: usaco_11_dec_grass_planting
+Invoking: GCC C++ Linker
+g++  -o "usaco_11_dec_grass_planting"  ./src/usaco_11_dec_grass_planting.o   
+Finished building target: usaco_11_dec_grass_planting
+ 
+18:53:46 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+../src/usaco_11_dec_grass_planting.cpp: In function ‘int main()’:
+../src/usaco_11_dec_grass_planting.cpp:51:27: error: expected primary-expression before ‘)’ token
+  adj.assign(n, vector<int>);
+                           ^
+make: *** [src/usaco_11_dec_grass_planting.o] Error 1
+src/subdir.mk:18: recipe for target 'src/usaco_11_dec_grass_planting.o' failed
+18:53:58 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+Finished building: ../src/usaco_11_dec_grass_planting.cpp
+ 
+Building target: usaco_11_dec_grass_planting
+Invoking: GCC C++ Linker
+g++  -o "usaco_11_dec_grass_planting"  ./src/usaco_11_dec_grass_planting.o   
+Finished building target: usaco_11_dec_grass_planting
+ 
+18:55:34 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+../src/usaco_11_dec_grass_planting.cpp: In function ‘int main()’:
+../src/usaco_11_dec_grass_planting.cpp:55:20: error: no match for ‘operator=’ (operand types are ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<int> > >::value_type {aka std::vector<int>}’ and ‘int’)
+   adj[u - 1] = v - 1;
+                    ^
+In file included from /usr/include/c++/7/vector:69:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/usaco_11_dec_grass_planting.cpp:1:
+/usr/include/c++/7/bits/vector.tcc:179:5: note: candidate: std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]
+     vector<_Tp, _Alloc>::
+     ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/7/bits/vector.tcc:179:5: note:   no known conversion for argument 1 from ‘int’ to ‘const std::vector<int>&’
+In file included from /usr/include/c++/7/vector:64:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/usaco_11_dec_grass_planting.cpp:1:
+/usr/include/c++/7/bits/stl_vector.h:461:7: note: candidate: std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = int; _Alloc = std::allocator<int>]
+       operator=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+       ^~~~~~~~
+/usr/include/c++/7/bits/stl_vector.h:461:7: note:   no known conversion for argument 1 from ‘int’ to ‘std::vector<int>&&’
+/usr/include/c++/7/bits/stl_vector.h:482:7: note: candidate: std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>]
+       operator=(initializer_list<value_type> __l)
+       ^~~~~~~~
+/usr/include/c++/7/bits/stl_vector.h:482:7: note:   no known conversion for argument 1 from ‘int’ to ‘std::initializer_list<int>’
+../src/usaco_11_dec_grass_planting.cpp:56:20: error: no match for ‘operator=’ (operand types are ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<int> > >::value_type {aka std::vector<int>}’ and ‘int’)
+   adj[v - 1] = u - 1;
+                    ^
+In file included from /usr/include/c++/7/vector:69:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/usaco_11_dec_grass_planting.cpp:1:
+/usr/include/c++/7/bits/vector.tcc:179:5: note: candidate: std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]
+     vector<_Tp, _Alloc>::
+     ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/7/bits/vector.tcc:179:5: note:   no known conversion for argument 1 from ‘int’ to ‘const std::vector<int>&’
+In file included from /usr/include/c++/7/vector:64:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/usaco_11_dec_grass_planting.cpp:1:
+/usr/include/c++/7/bits/stl_vector.h:461:7: note: candidate: std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = int; _Alloc = std::allocator<int>]
+       operator=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+       ^~~~~~~~
+/usr/include/c++/7/bits/stl_vector.h:461:7: note:   no known conversion for argument 1 from ‘int’ to ‘std::vector<int>&&’
+/usr/include/c++/7/bits/stl_vector.h:482:7: note: candidate: std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>]
+       operator=(initializer_list<value_type> __l)
+       ^~~~~~~~
+/usr/include/c++/7/bits/stl_vector.h:482:7: note:   no known conversion for argument 1 from ‘int’ to ‘std::initializer_list<int>’
+make: *** [src/usaco_11_dec_grass_planting.o] Error 1
+src/subdir.mk:18: recipe for target 'src/usaco_11_dec_grass_planting.o' failed
+18:56:09 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+Finished building: ../src/usaco_11_dec_grass_planting.cpp
+ 
+Building target: usaco_11_dec_grass_planting
+Invoking: GCC C++ Linker
+g++  -o "usaco_11_dec_grass_planting"  ./src/usaco_11_dec_grass_planting.o   
+Finished building target: usaco_11_dec_grass_planting
+ 
+18:57:14 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+Finished building: ../src/usaco_11_dec_grass_planting.cpp
+ 
+Building target: usaco_11_dec_grass_planting
+Invoking: GCC C++ Linker
+g++  -o "usaco_11_dec_grass_planting"  ./src/usaco_11_dec_grass_planting.o   
+Finished building target: usaco_11_dec_grass_planting
+ 
+19:10:47 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+../src/usaco_11_dec_grass_planting.cpp: In function ‘void DFS(int)’:
+../src/usaco_11_dec_grass_planting.cpp:20:18: error: no match for ‘operator[]’ (operand types are ‘int [110000]’ and ‘std::pair<int, int>’)
+   size[u] += size[v];
+                  ^
+../src/usaco_11_dec_grass_planting.cpp:21:29: error: no match for ‘operator[]’ (operand types are ‘int [110000]’ and ‘std::pair<int, int>’)
+   if (heavy[u] == -1 || size[v] > size[heavy[u]]) {
+                             ^
+../src/usaco_11_dec_grass_planting.cpp:22:15: error: cannot convert ‘std::pair<int, int>’ to ‘int’ in assignment
+    heavy[u] = v;
+               ^
+../src/usaco_11_dec_grass_planting.cpp: In function ‘int lca_2(int, int)’:
+../src/usaco_11_dec_grass_planting.cpp:53:27: error: invalid types ‘int[int]’ for array subscript
+   int head = parent[head[v]];
+                           ^
+make: *** [src/usaco_11_dec_grass_planting.o] Error 1
+src/subdir.mk:18: recipe for target 'src/usaco_11_dec_grass_planting.o' failed
+19:11:24 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+../src/usaco_11_dec_grass_planting.cpp: In function ‘int lca_2(int, int)’:
+../src/usaco_11_dec_grass_planting.cpp:53:27: error: invalid types ‘int[int]’ for array subscript
+   int head = parent[head[v]];
+                           ^
+make: *** [src/usaco_11_dec_grass_planting.o] Error 1
+src/subdir.mk:18: recipe for target 'src/usaco_11_dec_grass_planting.o' failed
+19:13:01 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+Finished building: ../src/usaco_11_dec_grass_planting.cpp
+ 
+Building target: usaco_11_dec_grass_planting
+Invoking: GCC C++ Linker
+g++  -o "usaco_11_dec_grass_planting"  ./src/usaco_11_dec_grass_planting.o   
+Finished building target: usaco_11_dec_grass_planting
+ 
+19:13:40 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+Finished building: ../src/usaco_11_dec_grass_planting.cpp
+ 
+Building target: usaco_11_dec_grass_planting
+Invoking: GCC C++ Linker
+g++  -o "usaco_11_dec_grass_planting"  ./src/usaco_11_dec_grass_planting.o   
+Finished building target: usaco_11_dec_grass_planting
+ 
+19:14:49 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+Finished building: ../src/usaco_11_dec_grass_planting.cpp
+ 
+Building target: usaco_11_dec_grass_planting
+Invoking: GCC C++ Linker
+g++  -o "usaco_11_dec_grass_planting"  ./src/usaco_11_dec_grass_planting.o   
+Finished building target: usaco_11_dec_grass_planting
+ 
+19:15:58 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+Finished building: ../src/usaco_11_dec_grass_planting.cpp
+ 
+Building target: usaco_11_dec_grass_planting
+Invoking: GCC C++ Linker
+g++  -o "usaco_11_dec_grass_planting"  ./src/usaco_11_dec_grass_planting.o   
+Finished building target: usaco_11_dec_grass_planting
+ 
+19:16:24 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+make: Nothing to be done for 'all'.
+20:01:05 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+../src/usaco_11_dec_grass_planting.cpp: In function ‘int main()’:
+../src/usaco_11_dec_grass_planting.cpp:111:29: error: no matching function for call to ‘std::vector<std::vector<int> >::assign(int&, std::vector<std::pair<int, int> >)’
+  adj.assign(n, vector<pii>());
+                             ^
+In file included from /usr/include/c++/7/vector:64:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/usaco_11_dec_grass_planting.cpp:1:
+/usr/include/c++/7/bits/stl_vector.h:501:7: note: candidate: void std::vector<_Tp, _Alloc>::assign(std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::value_type = std::vector<int>]
+       assign(size_type __n, const value_type& __val)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:501:7: note:   no known conversion for argument 2 from ‘std::vector<std::pair<int, int> >’ to ‘const value_type& {aka const std::vector<int>&}’
+/usr/include/c++/7/bits/stl_vector.h:520:2: note: candidate: template<class _InputIterator, class> void std::vector<_Tp, _Alloc>::assign(_InputIterator, _InputIterator) [with _InputIterator = _InputIterator; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]
+  assign(_InputIterator __first, _InputIterator __last)
+  ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:520:2: note:   template argument deduction/substitution failed:
+../src/usaco_11_dec_grass_planting.cpp:111:29: note:   deduced conflicting types for parameter ‘_InputIterator’ (‘int’ and ‘std::vector<std::pair<int, int> >’)
+  adj.assign(n, vector<pii>());
+                             ^
+In file included from /usr/include/c++/7/vector:64:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/usaco_11_dec_grass_planting.cpp:1:
+/usr/include/c++/7/bits/stl_vector.h:546:7: note: candidate: void std::vector<_Tp, _Alloc>::assign(std::initializer_list<_Tp>) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >]
+       assign(initializer_list<value_type> __l)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:546:7: note:   candidate expects 1 argument, 2 provided
+make: *** [src/usaco_11_dec_grass_planting.o] Error 1
+src/subdir.mk:18: recipe for target 'src/usaco_11_dec_grass_planting.o' failed
+20:02:50 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+Finished building: ../src/usaco_11_dec_grass_planting.cpp
+ 
+Building target: usaco_11_dec_grass_planting
+Invoking: GCC C++ Linker
+g++  -o "usaco_11_dec_grass_planting"  ./src/usaco_11_dec_grass_planting.o   
+Finished building target: usaco_11_dec_grass_planting
+ 
+20:03:09 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+make: Nothing to be done for 'all'.
+20:06:06 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+make: Nothing to be done for 'all'.
+20:10:45 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+Finished building: ../src/usaco_11_dec_grass_planting.cpp
+ 
+Building target: usaco_11_dec_grass_planting
+Invoking: GCC C++ Linker
+g++  -o "usaco_11_dec_grass_planting"  ./src/usaco_11_dec_grass_planting.o   
+Finished building target: usaco_11_dec_grass_planting
+ 
+20:10:55 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+make: Nothing to be done for 'all'.
+20:12:09 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+make: Nothing to be done for 'all'.
+20:13:00 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:17 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+Building file: ../src/usaco_11_dec_grass_planting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/usaco_11_dec_grass_planting.d" -MT"src/usaco_11_dec_grass_planting.o" -o "src/usaco_11_dec_grass_planting.o" "../src/usaco_11_dec_grass_planting.cpp"
+Finished building: ../src/usaco_11_dec_grass_planting.cpp
+ 
+Building target: usaco_11_dec_grass_planting
+Invoking: GCC C++ Linker
+g++  -o "usaco_11_dec_grass_planting"  ./src/usaco_11_dec_grass_planting.o   
+Finished building target: usaco_11_dec_grass_planting
+ 
+20:23:20 **** Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+make: Nothing to be done for 'all'.
+20:23:58 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+make: Nothing to be done for 'all'.
+20:35:25 **** Incremental Build of configuration Debug for project usaco_11_dec_grass_planting ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:39 **** Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::__cxx11::string Solution::shortestSuperstring(std::vector<std::__cxx11::basic_string<char> >&)’:
+../src/leetcode_943.cpp:8:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+18:54:30 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp:1:10: fatal error: bits\stdc++.h: No such file or directory
+ #include <bits\stdc++.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+src/subdir.mk:18: recipe for target 'src/leetcode_943.o' failed
+make: *** [src/leetcode_943.o] Error 1
+18:54:40 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:28:57 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘int Solution::tsp(int, int)’:
+../src/leetcode_943.cpp:14:7: warning: suggest parentheses around operand of ‘!’ or change ‘&’ to ‘&&’ or ‘!’ to ‘~’ [-Wparentheses]
+    if(!mask& (1<<(next-1))) {
+       ^~~~~
+../src/leetcode_943.cpp: In member function ‘int Solution::findoverlap(std::__cxx11::string, std::__cxx11::string)’:
+../src/leetcode_943.cpp:39:21: error: invalid use of member function ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size() const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]’ (did you forget the ‘()’ ?)
+      while(res < s1.size && res < s2.size() &&
+                  ~~~^~~~
+../src/leetcode_943.cpp:39:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      while(res < s1.size && res < s2.size() &&
+                             ~~~~^~~~~~~~~~~
+make: *** [src/leetcode_943.o] Error 1
+src/subdir.mk:18: recipe for target 'src/leetcode_943.o' failed
+19:29:23 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘int Solution::tsp(int, int)’:
+../src/leetcode_943.cpp:14:7: warning: suggest parentheses around operand of ‘!’ or change ‘&’ to ‘&&’ or ‘!’ to ‘~’ [-Wparentheses]
+    if(!mask& (1<<(next-1))) {
+       ^~~~~
+../src/leetcode_943.cpp: In member function ‘int Solution::findoverlap(std::__cxx11::string, std::__cxx11::string)’:
+../src/leetcode_943.cpp:39:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      while(res < s1.size() && res < s2.size() &&
+            ~~~~^~~~~~~~~~~
+../src/leetcode_943.cpp:39:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      while(res < s1.size() && res < s2.size() &&
+                               ~~~~^~~~~~~~~~~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:31:42 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘int Solution::tsp(int, int)’:
+../src/leetcode_943.cpp:14:7: warning: suggest parentheses around operand of ‘!’ or change ‘&’ to ‘&&’ or ‘!’ to ‘~’ [-Wparentheses]
+    if(!mask& (1<<(next-1))) {
+       ^~~~~
+../src/leetcode_943.cpp: In member function ‘int Solution::findoverlap(std::__cxx11::string, std::__cxx11::string)’:
+../src/leetcode_943.cpp:39:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      while(res < s1.size() && res < s2.size() &&
+            ~~~~^~~~~~~~~~~
+../src/leetcode_943.cpp:39:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      while(res < s1.size() && res < s2.size() &&
+                               ~~~~^~~~~~~~~~~
+../src/leetcode_943.cpp: In function ‘int main()’:
+../src/leetcode_943.cpp:48:15: error: conversion from ‘Solution*’ to non-scalar type ‘Solution’ requested
+  Solution s = new Solution();
+               ^~~~~~~~~~~~~~
+../src/leetcode_943.cpp:50:3: error: base operand of ‘->’ has non-pointer type ‘Solution’
+  s->shortestSuperstring(input);
+   ^~
+make: *** [src/leetcode_943.o] Error 1
+src/subdir.mk:18: recipe for target 'src/leetcode_943.o' failed
+19:32:35 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘int Solution::tsp(int, int)’:
+../src/leetcode_943.cpp:14:7: warning: suggest parentheses around operand of ‘!’ or change ‘&’ to ‘&&’ or ‘!’ to ‘~’ [-Wparentheses]
+    if(!mask& (1<<(next-1))) {
+       ^~~~~
+../src/leetcode_943.cpp: In member function ‘int Solution::findoverlap(std::__cxx11::string, std::__cxx11::string)’:
+../src/leetcode_943.cpp:39:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      while(res < s1.size() && res < s2.size() &&
+            ~~~~^~~~~~~~~~~
+../src/leetcode_943.cpp:39:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      while(res < s1.size() && res < s2.size() &&
+                               ~~~~^~~~~~~~~~~
+../src/leetcode_943.cpp: In function ‘int main()’:
+../src/leetcode_943.cpp:48:15: error: conversion from ‘Solution*’ to non-scalar type ‘Solution’ requested
+  Solution s = new Solution();
+               ^~~~~~~~~~~~~~
+../src/leetcode_943.cpp:50:3: error: base operand of ‘->’ has non-pointer type ‘Solution’
+  s->shortestSuperstring(input);
+   ^~
+make: *** [src/leetcode_943.o] Error 1
+src/subdir.mk:18: recipe for target 'src/leetcode_943.o' failed
+19:33:23 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘int Solution::findoverlap(std::__cxx11::string, std::__cxx11::string)’:
+../src/leetcode_943.cpp:39:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      while(res < s1.size() && res < s2.size() &&
+            ~~~~^~~~~~~~~~~
+../src/leetcode_943.cpp:39:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      while(res < s1.size() && res < s2.size() &&
+                               ~~~~^~~~~~~~~~~
+../src/leetcode_943.cpp: In function ‘int main()’:
+../src/leetcode_943.cpp:48:15: error: conversion from ‘Solution*’ to non-scalar type ‘Solution’ requested
+  Solution s = new Solution();
+               ^~~~~~~~~~~~~~
+../src/leetcode_943.cpp:50:3: error: base operand of ‘->’ has non-pointer type ‘Solution’
+  s->shortestSuperstring(input);
+   ^~
+make: *** [src/leetcode_943.o] Error 1
+src/subdir.mk:18: recipe for target 'src/leetcode_943.o' failed
+19:33:53 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In function ‘int main()’:
+../src/leetcode_943.cpp:48:15: error: conversion from ‘Solution*’ to non-scalar type ‘Solution’ requested
+  Solution s = new Solution();
+               ^~~~~~~~~~~~~~
+../src/leetcode_943.cpp:50:3: error: base operand of ‘->’ has non-pointer type ‘Solution’
+  s->shortestSuperstring(input);
+   ^~
+make: *** [src/leetcode_943.o] Error 1
+src/subdir.mk:18: recipe for target 'src/leetcode_943.o' failed
+19:34:09 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:35:20 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:41:09 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:41:25 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:42:11 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:42:46 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:42:59 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:43:18 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+make: Nothing to be done for 'all'.
+19:43:50 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:46:06 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:48:08 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:48:31 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+make: Nothing to be done for 'all'.
+19:48:58 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:49:09 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:50:52 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:52:48 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:53:03 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:55:39 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:56:32 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+19:58:24 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+20:00:45 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+20:01:27 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+20:05:50 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+20:06:31 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:22:04 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:22:41 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:23:50 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:24:21 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:24:52 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:25:35 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘int Solution::tsp(int, int)’:
+../src/leetcode_943.cpp:11:20: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+   bitset<8> x((1<<n-1)-1);
+                   ~^~
+../src/leetcode_943.cpp:13:19: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+   if(mask == (1<<n-1)-1) {
+                  ~^~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:26:06 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:26:23 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:37:49 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::__cxx11::string Solution::shortestSuperstring(std::vector<std::__cxx11::basic_string<char> >&)’:
+../src/leetcode_943.cpp:39:34: error: invalid use of non-static member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’
+       suffix_vec.push_back(suffix[A[i]]);
+                                  ^
+../src/leetcode_943.cpp:83:20: note: declared here
+     vector<string> suffix(string s1) {
+                    ^~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:78:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:85:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i < s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+make: *** [src/leetcode_943.o] Error 1
+src/subdir.mk:18: recipe for target 'src/leetcode_943.o' failed
+21:38:15 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:78:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:85:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i < s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:39:31 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:78:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:85:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:41:00 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:78:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:85:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:41:41 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:78:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <s1.length(); i++) {
+                      ~~^~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:85:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:42:00 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:78:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:85:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:42:04 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:14 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:78:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:85:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:42:25 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:78:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:85:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:42:28 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+make: Nothing to be done for 'all'.
+21:45:07 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:78:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:86:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:46:05 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:78:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:85:17: error: cannot convert ‘std::__cxx11::basic_string<char>::length’ from type ‘std::__cxx11::basic_string<char>::size_type (std::__cxx11::basic_string<char>::)() const noexcept {aka long unsigned int (std::__cxx11::basic_string<char>::)() const noexcept}’ to type ‘int’
+      int l = s1.length;
+                 ^~~~~~
+../src/leetcode_943.cpp:87:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+make: *** [src/leetcode_943.o] Error 1
+src/subdir.mk:18: recipe for target 'src/leetcode_943.o' failed
+21:46:16 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:78:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:87:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:48:47 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::__cxx11::string Solution::shortestSuperstring(std::vector<std::__cxx11::basic_string<char> >&)’:
+../src/leetcode_943.cpp:44:49: error: no matching function for call to ‘Solution::findoverlap(__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> > >::value_type&, __gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> > >::value_type&)’
+        graph[i][j] = -1 * findoverlap(A[i], A[j]);
+                                                 ^
+../src/leetcode_943.cpp:67:9: note: candidate: int Solution::findoverlap(std::vector<std::__cxx11::basic_string<char> >, std::vector<std::__cxx11::basic_string<char> >)
+     int findoverlap(vector<string> suffix, vector<string> prefix) {
+         ^~~~~~~~~~~
+../src/leetcode_943.cpp:67:9: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> > >::value_type {aka std::__cxx11::basic_string<char>}’ to ‘std::vector<std::__cxx11::basic_string<char> >’
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:83:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:90:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+../src/leetcode_943.cpp:91:31: error: ‘l’ was not declared in this scope
+       res.push_back(s1.substr(l-i));
+                               ^
+make: *** [src/leetcode_943.o] Error 1
+src/subdir.mk:18: recipe for target 'src/leetcode_943.o' failed
+21:49:40 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::__cxx11::string Solution::shortestSuperstring(std::vector<std::__cxx11::basic_string<char> >&)’:
+../src/leetcode_943.cpp:44:47: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+        graph[i][j] = -1 * findoverlap(suffix[i], prefix[j]);
+                                               ^
+../src/leetcode_943.cpp:44:58: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+        graph[i][j] = -1 * findoverlap(suffix[i], prefix[j]);
+                                                          ^
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:83:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:90:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+../src/leetcode_943.cpp:91:31: error: ‘l’ was not declared in this scope
+       res.push_back(s1.substr(l-i));
+                               ^
+make: *** [src/leetcode_943.o] Error 1
+src/subdir.mk:18: recipe for target 'src/leetcode_943.o' failed
+21:50:20 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:83:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:90:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+../src/leetcode_943.cpp:91:31: error: ‘l’ was not declared in this scope
+       res.push_back(s1.substr(l-i));
+                               ^
+make: *** [src/leetcode_943.o] Error 1
+src/subdir.mk:18: recipe for target 'src/leetcode_943.o' failed
+21:50:50 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:84:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp:82:10: warning: unused variable ‘l’ [-Wunused-variable]
+      int l = s1.length();
+          ^
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:91:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+../src/leetcode_943.cpp:92:31: error: ‘l’ was not declared in this scope
+       res.push_back(s1.substr(l-i));
+                               ^
+make: *** [src/leetcode_943.o] Error 1
+src/subdir.mk:18: recipe for target 'src/leetcode_943.o' failed
+21:51:19 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:84:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:92:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:57:01 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::__cxx11::string Solution::shortestSuperstring(std::vector<std::__cxx11::basic_string<char> >&)’:
+../src/leetcode_943.cpp:44:43: error: invalid use of member function ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::length() const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]’ (did you forget the ‘()’ ?)
+        graph[i][j] = A[i].length() + A[j].length + findoverlap(suffix_vec[i], prefix_vec[j]);
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:84:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:92:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+make: *** [src/leetcode_943.o] Error 1
+src/subdir.mk:18: recipe for target 'src/leetcode_943.o' failed
+21:57:13 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:84:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:92:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+21:57:35 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:84:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:92:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
+22:01:13 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘int Solution::tsp(int, int)’:
+../src/leetcode_943.cpp:10:34: error: ‘dist’ was not declared in this scope
+     if (mask == (1<<n)-1) return dist[c][0];  // return to close the loop
+                                  ^~~~
+../src/leetcode_943.cpp:10:34: note: suggested alternative: ‘div’
+     if (mask == (1<<n)-1) return dist[c][0];  // return to close the loop
+                                  ^~~~
+                                  div
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:92:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:100:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+make: *** [src/leetcode_943.o] Error 1
+src/subdir.mk:18: recipe for target 'src/leetcode_943.o' failed
+22:01:24 **** Incremental Build of configuration Debug for project leetcode_943 ****
+make all 
+Building file: ../src/leetcode_943.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/leetcode_943.d" -MT"src/leetcode_943.o" -o "src/leetcode_943.o" "../src/leetcode_943.cpp"
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::prefix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:92:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <=s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~
+../src/leetcode_943.cpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Solution::suffix(std::__cxx11::string)’:
+../src/leetcode_943.cpp:100:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (int i = 1; i <= s1.length(); i++) {
+                      ~~^~~~~~~~~~~~~~
+Finished building: ../src/leetcode_943.cpp
+ 
+Building target: leetcode_943
+Invoking: GCC C++ Linker
+g++  -o "leetcode_943"  ./src/leetcode_943.o   
+Finished building target: leetcode_943
+ 
